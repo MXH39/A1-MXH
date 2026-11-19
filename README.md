@@ -17,8 +17,6 @@ javac -encoding UTF-8 -d out src/clinic/*.java src/clinic/staff/*.java src/clini
 java  -Dfile.encoding=UTF-8 -cp out clinic.AssignmentOne
 ```
 
-Windows 下可直接双击 / 执行 `run.bat`；Git Bash、macOS、Linux 用 `./run.sh`。
-
 如果命令行提示 `javac: command not found`，说明 JDK 的 `bin` 目录不在 `PATH` 里（本机就是这种情况），
 用完整路径即可：
 
